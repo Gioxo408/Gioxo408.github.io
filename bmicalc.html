@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BMI Calculator</title>
+	<link href="bmicalcstyles.css" rel="stylesheet">
+	<!-- created by giovanni borceguin -->
+</head>
+<body>
+	<h1>BMI Calculator</h1>
+	<nav>
+            <a href="index.html">Home</a> &nbsp;
+            <a href="aboutme.html">About Me</a> &nbsp;
+            <a href="myprojects.html">My Projects</a>
+    </nav>
+
+	<script src="bmi_calc.js" defer></script>
+
+	<label for="heightft">Height(ft)</label>
+	<input type="textbox" name="heightft" id="heightft">
+	<br>
+	<label for="heightin">Height(in)</label>
+	<input type="textbox" name="heightin" id="heightin">
+	<br>
+	<label for="weight">Weight</label>
+	<input type="textbox" name="weight" id="weight">
+	<br>
+	<button onclick="calcBMI()">Calc BMI</button>
+	<button onclick="reset()">Clear</button>
+	<br>
+	<h3>Your BMI:</h3>
+
+	<h2 id="bmi">0</h2>
+	<iframe src="https://giphy.com/embed/MEvAK0Ows9D1KnVlMy" width="340" height="244" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/shaun-the-sheep-shaunthesheep-shaunthesheep6-MEvAK0Ows9D1KnVlMy">via GIPHY</a></p>
+</body>
+</html>
